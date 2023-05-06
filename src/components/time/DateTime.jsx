@@ -6,7 +6,7 @@ import styles from './styles.module.css'
 
 const DateTime = () => {
   const [date, setDate] = useState(new Date())
-  const [time, setTme]  = useState(new Date())
+ 
   
   useEffect(() => {
     const timer = setInterval(() => {
