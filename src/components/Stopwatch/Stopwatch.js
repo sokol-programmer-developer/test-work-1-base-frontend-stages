@@ -13,7 +13,7 @@ const Stopwatch = () => {
     intervalRef.current = setInterval(increaseNum, 1000); 
     return () => clearInterval(intervalRef.current);
 
-  }, []);
+  });
   
   const increaseNum = () => setNum((num) => 1 + num);
 
