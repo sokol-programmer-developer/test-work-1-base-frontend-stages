@@ -1,0 +1,66 @@
+
+/*----------------------------------Sidebar---------------------*/
+.sidebar__section{
+  display: grid;
+  position: relative;
+  grid-template-rows: repeat(2, fit-content(10vw));
+
+  width: 30vw;
+  height: auto;
+ 
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+/*----------------------------------Sidebar---------------------*/
+
+
+@media screen  and (min-width: 769px) and (max-width: 1280px) {   
+
+/*----------------------------------Sidebar---------------------*/
+.sidebar__section{
+  display: grid;
+  position: absolute;
+  grid-template-rows: repeat(2, fit-content(10vw));
+
+  width: 30vw;
+  height: auto;
+  top: 6vh;
+  left: 70vw;
+ 
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+/*----------------------------------Sidebar---------------------*/
+
+}
+
+
+
+
+@media screen  and (max-width: 768px) {   
+
+/*----------------------------------Sidebar---------------------*/
+.sidebar__section{
+  display: grid;
+  position: absolute;
+  grid-template-rows: repeat(2, fit-content(10vw));
+  grid-row-gap: 4vh;
+  width: 100vw;
+  height: auto;
+  top: 5vh;
+
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+}
+
+/*----------------------------------Sidebar---------------------*/
+
+}

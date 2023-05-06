@@ -1,0 +1,482 @@
+
+/*---------------------sidebarAvatar__section---------------*/
+.sidebarAvatar__section{
+  display: grid;
+  position: relative;
+
+  width: 25vw;
+  height: 35vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: rgb(110, 109, 109);
+}
+
+.sidebarAvatar__container{
+  display: grid;
+  position: relative;
+  grid-template-rows: repeat(3, fit-content(2.5vw));
+
+  width: 25vw;
+  height: 35vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__wrapper__picture__avatar{
+  display: grid;
+  position: relative;
+
+  width: 10vw;
+  height: 17vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.sidebarAvatar__picture__avatar{
+  display: grid;
+  position: relative;
+
+  width: 10vw;
+  height: 15vh;
+  cursor: pointer;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+
+.sidebarAvatar__info__block{
+  display: grid;
+  position: relative;
+
+  grid-template-rows: repeat(3, fit-content(2.5vw));
+
+  width: 22vw;
+  height: 14vh;
+ 
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__title{
+  display: grid;
+  position: relative;
+
+  width: 20vw;
+  height: 4vh;
+
+  font-weight: 400;
+  font-size: 2vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.sidebarAvatar__subtitle{
+  display: grid;
+  position: relative;
+
+  width: 20vw;
+  height: 4vh;
+
+  font-weight: 400;
+  font-size: 2vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.sidebarAvatar__group__icon{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(7, fit-content(2.5vw));
+  grid-column-gap: 0.2vw;
+  width: 22vw;
+  height: 5vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__wrapper__icon{
+  display: grid;
+  position: relative;
+
+  width: 3vw;
+  height: 3vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__icon{
+  display: grid;
+  position: relative;
+
+  width: 3vw;
+  height: 3vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+/*---------------------sidebarAvatar__section---------------*/
+
+
+/*---------------------sidebarAvatar__section---------------*/
+
+@media screen and (min-width: 769px) and (max-width: 1280px) { 
+
+/*---------------------sidebarAvatar__section---------------*/
+.sidebarAvatar__section{
+  display: grid;
+  position: relative;
+
+  width: 25vw;
+  height: 35vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__container{
+  display: grid;
+  position: relative;
+  grid-template-rows: repeat(3, fit-content(2.5vw));
+
+  width: 25vw;
+  height: 35vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__wrapper__picture__avatar{
+  display: grid;
+  position: relative;
+
+  width: 12.5vw;
+  height: 17vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  border-radius: 100px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.sidebarAvatar__picture__avatar{
+  display: grid;
+  position: relative;
+
+  width: 10vw;
+  height: 15vh;
+  cursor: pointer;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+
+.sidebarAvatar__info__block{
+  display: grid;
+  position: relative;
+
+  grid-template-rows: repeat(3, fit-content(2.5vw));
+
+  width: 24vw;
+  height: 15vh;
+ 
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__title{
+  display: grid;
+  position: relative;
+
+  width: 20vw;
+  height: 5vh;
+
+  font-weight: 400;
+  font-size: 2.5vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.sidebarAvatar__subtitle{
+  display: grid;
+  position: relative;
+
+  width: 20vw;
+  height: 5vh;
+
+  font-weight: 400;
+  font-size: 2.5vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.sidebarAvatar__group__icon{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(7, fit-content(2.5vw));
+  grid-column-gap: 0.4vw;
+  width: 25vw;
+  height: 5vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__wrapper__icon{
+  display: grid;
+  position: relative;
+
+  width: 3.25vw;
+  height: 3.25vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__icon{
+  display: grid;
+  position: relative;
+
+  width: 3vw;
+  height: 3vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+/*---------------------sidebarAvatar__section---------------*/
+
+}
+
+/*---------------------sidebarAvatar__section---------------*/
+@media screen  and (max-width: 768px) {     
+   
+
+  /*---------------------sidebarAvatar__section---------------*/
+.sidebarAvatar__section{
+  display: grid;
+  position: relative;
+
+  width: 90vw;
+  height: auto;
+ 
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+   
+}
+
+.sidebarAvatar__container{
+  display: grid;
+  position: relative;
+  grid-template-rows: repeat(3, fit-content(2.5vw));
+
+  width: 90vw;
+  height: auto;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  background-color: rgb(110, 109, 109);   
+   padding: 5vh 0vw;  
+}
+
+.sidebarAvatar__wrapper__picture__avatar{
+  display: grid;
+  position: relative;
+
+  width: 80vw;
+  height: 60vh;
+ 
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__picture__avatar{
+  display: grid;
+  position: relative;
+
+  width: 80vw;
+  height: 57vh;
+  top: 1.5vh;
+  cursor: pointer;
+  background-size: contain;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+
+.sidebarAvatar__info__block{
+  display: grid;
+  position: relative;
+
+  grid-template-rows: repeat(3, fit-content(2.5vw));
+  grid-row-gap: 1vh;
+  width: 90vw;
+  height: 25vh;
+  top: 2vh;
+ 
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__title{
+  display: grid;
+  position: relative;
+
+  width: 90vw;
+  height: 6vh;
+
+  font-weight: 400;
+  font-size: 4vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.sidebarAvatar__subtitle{
+  display: grid;
+  position: relative;
+
+  width: 90vw;
+  height: 6vh;
+
+  font-weight: 400;
+  font-size: 4vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.sidebarAvatar__group__icon{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(7, fit-content(2.5vw));
+  grid-column-gap: 3vw;
+  width: 90vw;
+  height: auto;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center; 
+}
+
+.sidebarAvatar__wrapper__icon{
+  display: grid;
+  position: relative;
+
+  width: 8vw;
+  height: 8vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.sidebarAvatar__icon{
+  display: grid;
+  position: relative;
+
+  width: 8vw;
+  height: 8vh;
+
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+
+/*---------------------sidebarAvatar__section---------------*/
+
+}

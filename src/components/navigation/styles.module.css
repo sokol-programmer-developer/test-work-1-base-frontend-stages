@@ -1,0 +1,769 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.article__mobile__header{
+  display: none;
+}
+
+.navigation__section{
+  display: grid;
+  position: relative;
+
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  
+  width: 100vw;
+  height: 25vh;  
+
+  background-color: rgb(110, 109, 109);
+}
+
+
+
+.header__section{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, fit-content(2.5vh));
+  grid-row-gap: 1.5vh;
+
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  
+  width: 100vw;
+  height: 25vh; 
+}
+
+ul,li,a{
+  list-style: none;
+  text-decoration: none;
+}
+
+/*-------------------Button-------------------------------*/
+.btn__link{
+  display: grid;
+  position: relative;
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: auto;
+  height: 5vh;
+
+  font-size: 2vh;
+  font-weight: 400;
+
+  border: none;
+  background-color: rgb(110, 109, 109);
+
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+
+  border: none;
+  user-select: none;
+}
+/*---------------------------------------------------------*/
+
+.btn__light{
+  display: grid;
+  position: relative;
+
+  grid-template-columns: repeat(2, fit-content(2vw));
+  grid-column-gap: 1vw;
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: auto;
+  height: 5vh;
+
+  background-color: rgb(110, 109, 109);
+
+  font-size: 2vh;
+  font-weight: 400;
+
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+
+  border: none;
+  user-select: none;
+}
+
+.btn__light__logo{
+  display: grid;
+  position: relative;
+
+
+  grid-template-columns: repeat(2, fit-content(2vw));
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  border: none;
+
+  background-color: rgb(110, 109, 109);
+
+  width: 20vw;
+  height: 5vh;
+  left: 3vw;
+
+
+  color: rgba(0, 0, 0, 1);
+
+  border: none;
+  user-select: none;
+}
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+
+.icon__header__wrapper{
+  display: grid;
+  position: relative;
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: 3vw;
+  height: 5vh;
+}
+
+.icon__header__pic{
+   display: grid;
+  position: relative;
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: 3vw;
+  height: 5vh;
+
+  cursor: pointer;
+}
+
+.btn__light__title{
+  display: grid;
+  position: relative;
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: auto;
+  height: 5vh;
+
+  font-size: 2vh;
+  font-weight: 400;
+
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+
+  text-decoration: none;
+}
+/*----------------------------------------------------------*/
+.icon__header__wrapper__logo{
+  display: grid;
+  position: relative;
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: 4vw;
+  height: 5vh;
+}
+
+.icon__header__link__logo{
+  display: grid;
+  position: relative;
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: 4vw;
+  height: 5vh;
+
+  cursor: pointer;
+}
+
+.btn__light__title__logo{
+  display: grid;
+  position: relative;
+  
+  justify-content: start;
+  justify-items: start;
+  align-content: center;
+  align-items: center;
+
+  width: 16vw;
+  height: 5vh;
+
+  padding-left: 1vw;
+
+  font-size: 2vh;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+
+  text-decoration: none;
+}
+/*----------------------------------------------------------*/
+/*--------------------------Button--------------------------*/
+/*--------------------------Block--------------------------------*/
+/*---------------------------Top------------------------*/
+.article__header__top{
+  display: grid;
+  position: relative;
+   
+  justify-content: start;
+  justify-items: start;
+  align-content: center;
+  align-items: center;
+  
+  width: 100vw;
+  height: 5vh;
+  padding-left: 3vw;
+}
+/*--------------------------Top-----------------------------*/
+/*--------------------------Middle-----------------------------*/
+
+.article__header__middle{
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(2, fit-content(10vw));
+  grid-column-gap: 30vw;
+ 
+  width: 100vw;
+  height: 5vh;
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center; 
+}
+
+/*-----------------------------------*/
+.nav__header__middle{
+  display: grid;
+  position: relative;  
+  width: 50vw;
+  height: 5vh;
+  padding-right: 3vw;
+    
+  justify-content: end;
+  justify-items: end;
+  align-content: center;
+  align-items: center;  
+}
+
+/*---------------------------------*/
+.nav__header__group__item{
+  display: grid;
+  position: relative;  
+  grid-template-columns:  repeat(3, fit-content(5vw));
+  grid-column-gap: 2vw;
+ 
+  width: 50;
+  height: 5vh;
+
+  justify-content: end;
+  justify-items: end;
+  align-content: center;
+  align-items: center;
+}
+/*---------------------------------*/
+
+.nav__header__item{
+  display: grid;
+  position: relative;    
+  
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: auto;
+  height: 5vh;
+}
+/*---------------------------------*/
+
+
+.nav__header__link{
+  display: grid;
+  position: relative;    
+
+  
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: auto;
+  height: 5vh;
+}
+/*---------------------------------*/
+/*--------------------------Middle-----------------------------*/
+.nav__header__group__item__two{
+  display: grid;
+  position: relative;  
+  grid-template-columns:  repeat(4, fit-content(10vw));
+  grid-column-gap: 2vw;
+
+  width: 50vw;
+  height: 5vh;
+  padding-left: 3vw;
+
+  justify-content: start;
+  justify-items: start;
+  align-content: center;
+  align-items: center;
+}
+.nav__header__group__item__three{
+  display: grid;
+  position: relative;  
+  grid-template-columns:  repeat(4, fit-content(10vw));
+  grid-column-gap: 2vw;
+
+  width: 50vw;
+  height: 5vh;
+  padding-right: 3vw;
+
+  justify-content: end;
+  justify-items: end;
+  align-content: center;
+  align-items: center;
+}
+
+/*----------------------------Bottom------------------------------*/
+.article__header__bottom{
+  display: grid;
+  position: relative;    
+  
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 5vh;
+}
+
+/*------------------------------*/
+.nav__header__bottom{
+  display: grid;
+  position: relative;    
+  grid-template-columns:  repeat(2, fit-content(10vw));
+    
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 5vh;
+}
+/*------------------------------*/
+
+
+@media screen and (max-width: 1280px) {
+
+
+  .article__mobile__header{
+    display: grid;
+    position: relative;
+
+    bottom: 1vh;
+    left: 0;
+    width: 6vw;
+    height: 6vh;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+  }
+
+  .navbar__mobile__states{
+    display: grid;
+    position: relative;
+  
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    
+    width: 6vw;
+    height: 6vh;
+    
+  }
+
+/*----------------------------icon open----------------------------------------*/
+  .menu__bars__open{
+    display: grid;
+    position: relative;
+  
+    width: 8vw;
+    height: 6vh;   
+    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    z-index: 12;
+
+    transition: all 0.15s linear;
+    cursor: pointer;   
+  }
+
+   .navbar__mobile__icon__open{
+    display: grid;
+    position: relative;
+  
+    width: 8vw;
+    height: 6vh;
+   
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;   
+    z-index: 10;
+  }
+   
+/*----------------------------icon open-----------------------------------------*/  
+/*----------------------------icon close----------------------------------------*/
+  
+  .menu__bars__close {
+    display: grid;
+    position: relative;
+  
+    width: 8vw;
+    height: 6vh;   
+    bottom: 4vh;
+    left: 0vw;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+      
+    background-color: #fff;
+    color: rgb(255, 255, 255);
+    transition: all 0.15s linear;
+    cursor: pointer;   
+  }
+
+   .navbar__mobile__icon__close{
+    display: grid;
+    position: relative;
+  
+    width: 8vw;
+    height: 6vh;
+       
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+      
+  }
+   
+/*----------------------------icon close----------------------------------------*/
+/*----------------------------open close mobile menu----------------------------*/
+  .nav__menu {
+    display: grid;
+    position: fixed;
+  
+    width: 100vw;
+    height: 100vh;
+    left: 100vw; 
+    top: 0vh;
+    z-index: 50;
+       
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    background-color:  rgba(000,000,000,0);
+    opacity: 0;
+    
+    transition: all 850ms linear;  
+  }
+
+  .nav__menu__active {
+    display: grid;
+    position: fixed;
+  
+    width: 100vw;
+    height: 100vh;
+    left: 0;   
+    top: 0vh;  
+    z-index: 50;
+        
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    transition: all 350ms linear;
+    background-color:  rgba(000,000,000, 1);   
+    opacity: 1; 
+
+  }
+
+/*----------------------------open close mobile menu----------------------------*/
+
+
+  .nav__menu__items {
+    display: grid;
+    position: relative;
+  
+    width: 100vw;
+    height: 100vh; 
+   
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    background-color: rgba(000, 000, 000, 0.5);
+  }
+ 
+  .navbar__toggle {
+    display: grid;
+    position: relative;
+  
+    width: 6vw;
+    height: 5vh; 
+   
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;   
+  }
+
+/*-----------------------------mobile__button-----------------------------------*/
+  .navbar__mobile__container__button{
+     display: grid;
+    position: relative;
+     grid-row-gap: 4vh;
+    
+    width: 50vw;
+    height: 78vh;
+       
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    z-index: 10;
+  }
+
+  .navbar__mobile__group__link{
+    display: grid;
+    position: relative;
+    grid-row-gap: 10vh;
+    
+    width: 50vw;
+    height: 5vh;
+       
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    z-index: 10;
+  }
+
+  .navbar__mobile__link{
+    display: grid;
+    position: relative;
+     
+    width: 50vw;
+    height: 5vh;
+       
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    z-index: 13;
+  }
+
+   
+  .navbar__mobile__group__button{
+    display: grid;
+    position: relative;
+  
+    width: 50vw;
+    height: 5vh;
+       
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    z-index: 10;
+  }
+
+
+  .navbar__mobile__button{
+    display: grid;
+    position: relative;
+  
+    width: auto;
+    height: 5vh;
+    padding: 1vh 1vw;
+       
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    border: none;
+  
+    cursor: pointer;
+    transition: all 0.5s linear;
+    background-color: rgba(0, 0, 0, 1);
+    z-index: 10;
+  }
+
+
+  .navbar__mobile__button:hover{
+    background-color: rgba(255,255,255,0.8);
+    transition: all 0.5s linear;
+  }
+
+  .navbar__mobile__button:hover .navbar__mobile__button__text{
+    color: rgba(0, 0, 0, 1);
+    transition: all 0.5s linear;
+  }
+
+  
+  .navbar__mobile__button__text{
+    display: grid;
+    position: relative;
+  
+    width: auto;
+    height: 5vh;
+     padding: 1vh 1vw;
+       
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+    font-size: 3vh;
+    font-weight: 400;
+    color: #ffffff;
+
+    transition: all 0.5s linear;    
+    z-index: 10;
+  }
+/*-----------------------------mobile__button-----------------------------------*/
+
+  .navigation__section{
+    width: 100vw;
+    height: 10vh;
+  }
+
+  .header__section{
+    width: 100vw;
+    height: 5vh;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+  }
+
+  .article__header__top{
+    display: grid;
+    position: relative;
+    width: auto;
+    height: 5vh;
+    top: 4vh;
+    right: 30vw;
+    
+    padding-left: 0vw;  
+  }
+
+  .article__header__middle{
+    display: none;
+  }
+
+  .article__header__bottom{
+    display: none;
+  }
+  .navbar__desktop__states {
+    display: none;
+  }
+
+  .nav__default__item{
+    display: none;
+  }
+}
+/*----------------------------Button ----------------------------------*/
+.btn__link{
+  display: grid;
+  position: relative;
+
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+
+  width: auto;
+  height: 5vh;
+  padding: 0 1.5vw;
+
+  font-size: 3vh;
+  font-weight: 400;
+
+  cursor: pointer;
+  
+  color: rgba(0, 0, 0, 1);
+
+  border: none;
+  user-select: none;
+}
+/*----------------------------Mobile Menu------------------------------*/
+
+
+

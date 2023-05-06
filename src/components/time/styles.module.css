@@ -1,0 +1,31 @@
+
+.dateTime__section{
+  display: grid;
+  position: relative;
+  grid-template-rows: repeat(3,1fr);
+
+  width: 15vw;
+  height: 15vh;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;  
+}
+
+.dateTime__title{
+  display: grid;
+  position: relative;
+
+  width: 15vw;
+  height: 5vh;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+  font-size: 2vh;
+  font-weight: 400;
+  color: rgba(000, 000, 000, 1);
+}

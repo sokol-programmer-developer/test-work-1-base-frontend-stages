@@ -1,0 +1,117 @@
+
+.home__page__section{
+  display: grid;
+  position: relative;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+  width: 100vw;
+  height: auto;
+}
+
+/*------------------------home__page-----------------------------------*/
+/*------------------------time__page-----------------------------------*/
+.time__section{
+
+   display: grid;
+  position: relative;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(202, 202, 202);
+}
+
+.time__title{
+  display: grid;
+  position: relative;
+
+  width: 15vw;
+  height: 5vh;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+  font-size: 2vh;
+  font-weight: 400;
+  color: rgba(000, 000, 000, 1);
+}
+
+.time__paragraph{
+  display: grid;
+  position: relative;
+
+  width: 30vw;
+  height: 20vh;
+
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+  font-size: 2vh;
+  font-weight: 400;
+  color: rgba(000, 000, 000, 1);
+}
+
+/*------------------------time__page-----------------------------------*/
+/*------------------------Maps__page-----------------------------------*/
+
+.mapPage__section{
+  display: grid;
+  position: relative;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+  width: 100vw;
+  height: auto;
+}
+
+.mapPage__title{
+  display: grid;
+  position: relative;
+
+  
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+  width: 90vw;
+  height: auto;
+  padding: 2vh 1vw;
+
+  font-size: 2vh;
+  font-weight: 400;
+}
+
+.mapPage__subtitle{
+   display: grid;
+  position: relative;
+
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+
+  width: 90vw;
+  height: auto;
+   padding: 2vh 1vw;
+
+  font-size: 2vh;
+  font-weight: 400;
+}
